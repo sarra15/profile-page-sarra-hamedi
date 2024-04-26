@@ -1,0 +1,105 @@
+/* Write some CSS below */
+body {
+    background-color: gray;
+    font-size: 18px;
+    font-family: lora;
+    background-color: #BED7DC;
+    background-image: url(images/fram.png);
+    background-repeat:fixed;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 35px;
+    font-family: roboto;
+    color: rgb(90, 156, 197);
+    text-align: center;
+}
+h2{
+    font-size: 30px ;
+    font-family: roboto;
+    color: rgb(38, 82, 105);
+}
+h3{
+    font-size: 25px;
+    font-family: roboto;
+    color: rgb(132, 168, 230);
+}
+.btn-linkedin{
+    color: white;
+    background-color:rgb(41, 110, 128);
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-family: roboto;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s ease-out;
+    display: inline-block;
+}
+.btn-linkedin:hover {
+    transform: translateY(-2px);
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+.btn-linkedin:hover{
+    background-color: #BED7DC;
+    color: azure;
+}
+
+a{
+  text-decoration: none;  
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 600px;
+    margin: 40px auto;
+}
+
+.picture_circul{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.container{
+    width: 700px;
+    margin: 20px auto;
+}
+
+#presentation {
+    text-align: center;
+}
+#presentation p{
+    margin-bottom: 30px;
+}
+
+#presentation-liste{
+    text-align: left;
+}
+#presentation ul {
+    margin-bottom: 40px;
+}
+.list-inline{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.list-inline li{
+    display: inline;
+}
+.list-inline li i {
+    font-size: 60px;
+    color:rgb(41, 110, 128);
+    margin: 5px;
+}
+.list-inline li i:hover{
+    opacity: 0.7;
+}
+
